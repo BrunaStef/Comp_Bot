@@ -14,7 +14,7 @@ BOT_USERNAME: Final = '@'
 
 # Lets us use the /start command
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('Olá, eu sou o CompBot! Como posso ajudar?')
+    await update.message.reply_text('Olá, eu sou o NOME DO SEU BOT! Como posso ajudar?')
 
 # Lets us use the /help command
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -42,7 +42,7 @@ async def origens_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Lets us use the /ps command
 async def ps_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text('As inscrições para o processor seletivo começam no dia 22 de junho e se extenderão até o dia 02 de julho.\n\nPara mais detalhes, acesse o link do edital: https://drive.google.com/file/d/19BSaX55-NdtItse703W6FgZ2ahoNbdUj/view')
+    await update.message.reply_text('As inscrições para o processor seletivo começam no dia 22 de junho e se extenderão até o dia 02 de julho.\n\nPara mais detalhes, acesse o link do edital:')
 
 # Lets us use the /site command
 async def site_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
